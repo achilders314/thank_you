@@ -1,44 +1,75 @@
+
+
 .App {
   font-family: monospace !important;
   text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  margin: 5% auto 5% auto;
+  padding: 2%;
+  width: 70%;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+h1 {
+  margin: 2% 0;
+  font-size: 2rem;
 }
 
 input {
-  width: 500px;
+  width: 15vw;
+  background-color: black !important;
+  border: 1px solid limegreen;
+  color: #fff !important;
+  padding: 10px;
   text-align: center;
+  margin: 1%;
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#instructions {
+  font-size: 1rem;
 }
+
+.submit:hover {
+  background-color: #070707 !important;
+  transition: background-color 0.8s;
+}
+
+#cursor {
+  height: 0.8rem;
+}
+
+#personalMessage {
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60vw;
+  text-align: left !important;
+  line-height: 1.3;
+  padding: 2%;
+  background-color: #000;
+  letter-spacing: .1em; 
+  font-size: 1rem;
+}
+
+#personalMessage a {
+  color: limegreen;
+  text-decoration: none;
+}
+
+#personalMessage a:hover {
+  text-decoration: underline;
+  color: #ddd;
+}
+
+#message, #signature, #greeting {
+  margin: 2% 0 2% 0;
+}
+
+@media only screen and (max-width: 650px) {
+  input {
+    width: 50vw !important;
+  }
+  
+}
+
