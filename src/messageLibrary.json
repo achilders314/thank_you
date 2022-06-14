@@ -1,0 +1,25 @@
+[
+    {
+        "Kaleb C":
+        {
+            "id": 1,
+            "greeting": "Dear Kaleb,",
+            "message": "I wanted to thank you so much for helping me by ____.  I hope one day I can do an equally amazing favor for you and I promise to pay it forward and help other aspiring developers. I hope we can soon be co-workers!",
+            "signature": "Sincerely, Alison Childers"
+        },
+        "Person 2":
+        {   
+            "id": 2,
+            "greeting": "Dear Person 3,",
+            "message": "Message 2",
+            "signature": "Sincerely, Alison Childers"
+        },
+        "Person 3":
+        {
+            "id": 3,
+            "greeting": "Dear Person 3,",
+            "message": "Message 3",
+            "signature": "Sincerely, Alison Childers"
+        }
+    }
+]
