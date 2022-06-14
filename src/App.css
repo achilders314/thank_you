@@ -53,13 +53,12 @@ input {
 }
 
 #personalMessage a {
-  color: limegreen;
-  text-decoration: none;
+  color: #ddd;
+  text-decoration: underline;
 }
 
 #personalMessage a:hover {
-  text-decoration: underline;
-  color: #ddd;
+  text-decoration: none;
 }
 
 #message, #signature, #greeting {
@@ -71,5 +70,10 @@ input {
     width: 50vw !important;
   }
   
+  #message, #signature, #greeting {
+    margin-top: 10%;
+  }
+
+
 }
 
