@@ -11,11 +11,6 @@ class ButtonComponent extends React.Component {
         }
     }
 
-    beginThankYou() {
-        this.setState({
-            buttonState: false,
-          })
-    }
 
     personalThankYou() {
             let messageKey = document.getElementById("inputName").value;
@@ -26,7 +21,7 @@ class ButtonComponent extends React.Component {
                 messageBox.innerText = "This person is not in the database. Please check your input and try again."
             }
             
-            messageBox.innerHTML = `<div><p>${person.greeting}</p><p>${person.message}</p><p>${person.signature}</div>`
+            messageBox.innerHTML = `<div><p id="greeting">${person.greeting}</p><p id="message">${person.message}</p><p id="signature">${person.signature}</div>`
 
             }
 
@@ -34,28 +29,20 @@ class ButtonComponent extends React.Component {
     render() {
         return( 
             <div className="Button">
-            {
-                this.state.buttonState &&
-                <button
-                    type="button"
-                    className="btn"
-                    onClick={() => this.beginThankYou()}
-                >
-                    Click Me
-                </button>
-            }
-            {
-                !this.state.buttonState &&
                 <div>
                 <h1>
-                    Thank you <strong>SO</strong> much for your help!
+                    Thank You App
                 </h1>
-                <p>
-                    Type in your name below to see your personalized thank you message:
+                <p id="instructions">
+                    Type in your first name and last initial (e.g. Michael A) below to see your personalized thank you message:
+                <br /><br />
+                    -OR-
+                <br /><br />
+                    Type "guest" to see how the app works.
                 </p>
                 <input type="test" 
                        id="inputName"
-                       placeholder="Type your first name and last initial, e.g. Michael A" />
+                       placeholder="First name and last initial" />
                 <br />
                 <input type="submit"
                         className="submit"
@@ -63,9 +50,8 @@ class ButtonComponent extends React.Component {
                 >
                 </input>
                 </div>
-            }
            
-                <div id="personalMessage"></div>
+                <div id="personalMessage">Your message will appear here. <img id="cursor" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Flickering_cursor.gif" alt="" /></div>
            
             </div>
         );

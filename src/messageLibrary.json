@@ -1,25 +1,32 @@
 [
     {
-        "Kaleb C":
+        "guest":
         {
             "id": 1,
-            "greeting": "Dear Kaleb,",
-            "message": "I wanted to thank you so much for helping me by ____.  I hope one day I can do an equally amazing favor for you and I promise to pay it forward and help other aspiring developers. I hope we can soon be co-workers!",
-            "signature": "Sincerely, Alison Childers"
+            "greeting": "Hello World!",
+            "message": "Thanks so much for being a guest on my website and trying out my thank you card app.  I'll be sending this personalized thank you card out to anyone and everyone who helps me in this crazy career pivot process. I plan to return the favor to anyone and everyone I can. Like my app? Let's chat! Have a job opening for a developer? Let's chat! <br /><br /> If you are one of my supporters and I've sent you this link, just enter your first name and last initial above to see your personalized message. Want to see my main website and portfolio? Visit <a href=\"http://alisonchilders.com/\" target=\"_blank\">this link.</a>",
+            "signature": "Have a wonderful day! <br>Sincerely, Alison Childers<img id=\"cursor\" src=\"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flickering_cursor.gif\" alt=\"\" />"
         },
-        "Person 2":
+        "Aaron W":
         {   
             "id": 2,
-            "greeting": "Dear Person 3,",
-            "message": "Message 2",
-            "signature": "Sincerely, Alison Childers"
+            "greeting": "Dear Aaron,",
+            "message": "Thank you so much for your referral last week to Booz Allen Hamilton. It means so much when other members of the LinkedIn and developer community root for each other and support each other, and you've done just that. <br /><br />Thanks so much for answering my questions and continuing to support me on my posts and for your words of encouragement. I hope to update you soon with \"I got the job!\" But more on that later. In the meantime I hope you enjoy my nerdy version of a thank-you note :).",
+            "signature": "Best wishes and much gratitude, <br />Alison Childers<img id=\"cursor\" src=\"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flickering_cursor.gif\" alt=\"\" />"
         },
-        "Person 3":
+        "Alexa L":
         {
             "id": 3,
-            "greeting": "Dear Person 3,",
-            "message": "Message 3",
-            "signature": "Sincerely, Alison Childers"
+            "greeting": "Dear Alexa,",
+            "message": "Thank you so much for your referral last week to One & All Agency. It meant so much that you've kept me in mind all this time after our initial contact on Facebook. Even if I don't get an interview I want to thank you for all of your help. Most of the LinkedIn and developer community that I've experienced so far are such an awesome group of people who are super helpful. We're all our best when we help each other! You rock!",
+            "signature": "Best wishes, <br />Alison Childers<img id=\"cursor\" src=\"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flickering_cursor.gif\" alt=\"\" />"
+        },
+        "Brendan T":
+        {
+            "id": 4,
+            "greeting": "Dear Brendan,",
+            "message": "Thank you so much for all of your help in my career pivot so far. It's so awesome knowing I have someone in my corner when the remote space can seem a little lonely and cold sometimes. Even though I dread giving my elevator pitch 100+ more times, your advice so far has been super helpful and right on target. I call you the networking whisperer to my friends. I look forward to the next three weeks of kicking butt together! I hope your wife and daughter are feeling better after surgery and you're getting back into a more normal routine this week.",
+            "signature": "Talk soon, <br />Alison Childers<img id=\"cursor\" src=\"https://upload.wikimedia.org/wikipedia/commons/3/3e/Flickering_cursor.gif\" alt=\"\" />"
         }
     }
 ]
