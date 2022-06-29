@@ -1,26 +1,26 @@
-#Thank You App
+# Thank You App
 [Link to live site](http://alisonchilders.com/thank_you_app)
 
-##Description
+## Description
 In this project, I had just learned the basics of React and wanted to practice. I had also gotten several referrals from colleagues that I wanted to thank. So I combined the two into a cool project!
 
-##Technologies Used
+## Technologies Used
 - ReactJS
 - JSON
 - HTML
 - CSS
 - JavaScript
 
-##Features
+## Features
 - User types in their first name and last initial, and receives a custom thank you message!
 - Users who just want to try the app to see functionality can type in 'guest' no capitals.
 - Displays an error message if you type in something that's not in the system and asks you to try again.
 
-##Lessons Learned During Build
+## Lessons Learned During Build
 - I learned how to build an app completely from scratch
 - I also learned how to create my own JSON files and connect it to my app using a fetch request.
 
-##Picture of Live Site
+## Picture of Live Site
 ![Picture of thank you app](https://user-images.githubusercontent.com/102301042/176492356-379d5ef4-5065-4987-a6d8-884b0d9bd0fa.png)
 
 
